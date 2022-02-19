@@ -1,0 +1,76 @@
+.TextEstatuto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1134px;
+    height: 230px;
+    left: 117px;
+    top: 651px;
+
+
+}
+
+.titleEstatuto {
+
+ 
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    color: var(--dark-blue);
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+    box-shadow: inset  0px -20px 0px var(--cpg-yellow) ;
+    top: 90px;
+    left: 116px;
+    
+}
+
+.LinkEstat{
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: var(--dark-blue);
+    position: absolute;
+    top: 54rem;
+    left: 7.3rem;
+    background: transparent;
+    border: none;
+}
+
+
+.LinkRegul{
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: var(--dark-blue);
+    position: absolute;
+    top: 57.5rem;
+    left: 7.3rem;
+    background: transparent;
+    border: none;
+}
+
+.LinkChurras{
+    
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: var(--dark-blue);
+    position: absolute;
+    top: 61rem;
+    left: 7.3rem;
+    background: transparent;
+    border: none;
+}

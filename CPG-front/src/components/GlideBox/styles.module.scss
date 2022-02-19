@@ -1,0 +1,58 @@
+.GlideBox{
+    
+ //Fazer o movimento ocorrer sob o mouse
+ 
+    font-family: 'Open Sans', sans-serif;
+    width: 28.5rem;
+    height: 1.6rem;
+    background-color: var(--cpg-yellow);
+    position: relative;
+    top: 6rem;
+    left: 7.3rem;
+    line-height: 24px;
+    animation-duration: 3s;
+    animation-name: glide;
+    animation-direction: reverse;
+    
+        
+
+            @keyframes glide {
+                
+                from {
+                  margin-left: 3rem;
+                  width: 30% 
+                }
+              
+                to {
+                    position: relative;
+                    right: 0%;
+                    width: 100%;
+                    background-color: violet; 
+                 
+                }
+                20%{
+                    position: relative;
+                    margin-left: 0%;
+                    left: 0%;
+                    width: 60%;
+                    
+                
+                }
+            }
+
+        
+     
+
+
+}
+
+#Title{
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    top: 2.5rem;
+    left: 7.3rem;
+  }
+

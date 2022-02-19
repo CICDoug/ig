@@ -1,0 +1,204 @@
+.Text{
+    position: absolute;
+    width: 70.8rem;
+    height: 5.6rem;
+    left: 7.25rem;
+    top: 44rem;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    color: var(--black);
+}
+
+.EspacoLaz {
+   
+    color: var(--dark-blue);
+    top: 60rem;
+    left: 14.3rem;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 19.3rem;
+    height: 2.5rem;
+    
+    .EspacoLaz, p{
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 45px;
+        text-align: center;
+        color: var(--black);
+        right: -11px;
+        top: 5rem;
+        position: absolute;
+        width: 22.4rem;
+        height: 8rem;
+        
+    }
+
+}
+
+
+
+.EspacoSport {
+   
+    color: var(--dark-blue);
+    top: 54rem;
+    right: 14rem;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 19.3rem;
+    height: 2.5rem;
+    
+    .EspacoSport, p{
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 42px;
+        text-align: center;
+        color: var(--black);
+        width: 22.4rem;
+        height: 16.6rem;
+        position: absolute;
+        top: 5rem;
+        right: 1.5rem;
+
+    }
+   
+}
+
+.Carousel{
+
+    position: absolute;
+    width:100%;
+    left:0px;
+    top: -10rem;
+
+}
+
+.GlideHistoria{
+
+    position: relative;
+    top: 87rem;
+
+}
+
+.TextHistoria{
+
+    position: relative;
+    top: 93.5rem;
+    left: 7.25rem;
+    width: 40.62rem;
+    height: 18.43rem;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    color: var(--black);
+}
+
+.BlueGradient {
+
+    position: absolute;
+    width: 26.2rem;
+    height: 21.3rem;
+    right: 3.75rem;
+    top: 136.6rem;
+    background: linear-gradient(45deg, #182F61 0%, #1B3366 18.88%, #233E76 42.78%,
+                                #305190 69.38%, #426CB4 97.75%, #446EB7 100%);
+}
+
+.YellowGradient{
+
+    position: absolute;
+    width: 26.2rem;
+    height: 21.3rem;
+    right: 7.5rem;
+    top: 134.9rem;
+    background: linear-gradient(45deg, #F9B233 0%, #F5B738 28.72%, #EAC747 64.98%, #DADD5B 100%);
+}
+
+#ImgHistory{
+           
+    position: absolute;
+    top: 135.9rem;
+    right: 4.75rem;
+}
+
+.DivAdress{
+
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+    width: 100%;
+
+    .DivAdress, p{
+
+        color: var(--cpg-yellow);
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 0px;
+        position: relative;
+        top: 91.7rem;
+        left: 7.5rem;
+        z-index: 4;
+    }
+}
+
+.AdressText{
+
+    color: var(--white);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    line-height: 56px;
+    align-items: center;
+    position: relative;
+    top: 113.3rem;
+    left: 7.5rem;
+    z-index: 4;
+}
+
+.Horarios{
+    
+    position: absolute;
+    top: 199rem;
+    left: 0rem;
+}
+
+.HoraText{
+
+    position: absolute;
+    width: 42.3rem;
+    height: 23.8rem;
+    left: 7.25rem;
+    top: 209.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 29px;
+    line-height: 35px;
+    color: var(--black);
+}

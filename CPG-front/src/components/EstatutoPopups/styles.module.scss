@@ -1,0 +1,72 @@
+.Popup{
+    color: rgb(0, 0, 0);
+    width: 60rem;
+    height: 100rem;
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    max-height: 300px;
+    overflow-y: scroll;
+    background-color: #fff;
+    box-shadow: -15px  12px var(--cpg-yellow),
+    17px -13px var(--dark-blue),
+    0px 0px 20px var(--black);
+    left: 12rem;
+    top: 15rem;
+
+}
+
+//dxar texto flexivel e adicionar animações
+
+.Conteiner {
+    
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.Close{
+    background-color: transparent;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    cursor: pointer;
+    display: flex;
+    top: 0rem;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    align-items: center;
+
+    &:before,
+    &:after {
+        content: ' ';
+        position: absolute;
+        width: 2.5px;
+        height: 24px;
+        background-color: #000;
+        
+        
+
+    }
+
+    &:before {
+        transform: rotate(45deg);
+    }
+
+    &:after{
+        transform: rotate(-45deg);
+
+    }
+}

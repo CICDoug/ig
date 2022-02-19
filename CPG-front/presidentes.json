@@ -1,0 +1,36 @@
+{
+    "presidentes": [
+        {
+            "indice": 1,
+            "title": "Tereza Noronha Carvalho 1966 a 1975",
+            "image_url": "/assets/TerezaNoronha.png"
+        },
+        {
+            "indice": 2,
+            "title": "Maria Ruh issler 1975 a 1978",
+            "image_url": "/assets/MariaRuth.png"
+        },
+        {
+            "indice": 3,
+            "title": "Eunice da Silva Olsen 1978 a 1980",
+            "image_url": "/assets/EuniceSilva.png"
+        }
+    ],
+    "batata": [
+        {
+            "indice": 1,
+            "title": "Testando 01",
+            "image_url": "/assets/image11.png"
+        },
+        {
+            "indice": 2,
+            "title": "dasdsa 02",
+            "image_url": "/assets/image12.png"
+        },
+        {
+            "indice": 3,
+            "title": "Testando 03",
+            "image_url": "/assets/image11.png"
+        }
+    ]
+}

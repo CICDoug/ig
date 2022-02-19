@@ -1,0 +1,60 @@
+.Carousel3x4{
+    width: 100%;
+    height: 40.6rem;
+    position: absolute;
+    top: 92.8rem;
+    left: 0px;
+    background: linear-gradient(45deg, #182F61 0%, #1B3366 18.88%, 
+    #233E76 42.78%, #305190 69.38%, #426CB4 97.75%, #446EB7 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .Swiper3x4{
+        position: relative;
+        top: 10.6rem;
+        left: 0px;
+        width: 72rem;
+        align-items: center;
+        margin-left: 85px;
+
+
+        .Swiper3x4, img{
+            border-bottom:solid 119px #fff ;
+            border-top: solid 22px #fff;
+            border-left: solid 24px #fff;
+            border-right: solid 24px #fff;
+            
+        }
+
+        .Swiper3x4.swiper-button-prev{
+            color: #fff;
+        }
+    }
+
+}
+
+.Left{
+    position: relative;
+    left: 9.5rem;
+    
+}
+
+.Right{
+    position: relative;
+    right: 3.2rem;
+    
+}
+
+.Center{
+    position: relative;
+    left: 3.2rem;
+}
+
+.Swiper-button-prev{
+    color: #fff;
+}
+
+.Caption{
+    color: aqua;
+    position: relative;
+    top: 50px;
+}
